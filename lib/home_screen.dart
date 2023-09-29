@@ -47,9 +47,13 @@ class LandScapeScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -57,261 +61,13 @@ class LandScapeScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    ResponsiveGridCol(
-                      xs: 12,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            flex: 4,
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -320,6 +76,367 @@ class LandScapeScreenProfile extends StatelessWidget {
                     ),
                   ],
                 ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                ResponsiveGridRow(
+                  children: [
+                    ResponsiveGridCol(
+                      xs: 12,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            flex: 4,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+
               ],
             ),
           ),
@@ -352,9 +469,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -370,9 +491,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -388,9 +513,12 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+                                ),
                               ),
                             ),
                           ),
@@ -407,9 +535,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -426,9 +558,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -445,9 +581,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -464,9 +604,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -483,9 +627,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -502,9 +650,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
@@ -521,9 +673,13 @@ class PortraitScreenProfile extends StatelessWidget {
                             flex: 4,
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
-                              child: Image.network(
-                                'https://picsum.photos/250?image=10',
-                                fit: BoxFit.cover,
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                child: Image.network(
+                                  'https://picsum.photos/250?image=10',
+
+                                ),
                               ),
                             ),
                           ),
